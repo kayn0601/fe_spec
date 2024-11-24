@@ -1,0 +1,14 @@
+{
+  "name": "commitlint-config-kayn",
+  "version": "0.0.0",
+  "main": "index.js",
+  "description": "Git提交规范",
+  "keywords": [
+    "commit",
+    "lint"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "conventional-changelog-conventionalcommits": "^4.5.0"
+  }
+}
