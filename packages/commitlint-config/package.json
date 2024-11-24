@@ -1,6 +1,6 @@
 {
   "name": "commitlint-config-kayn",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "index.js",
   "description": "Git提交规范",
   "keywords": [
