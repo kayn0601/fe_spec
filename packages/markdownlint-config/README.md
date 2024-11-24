@@ -18,6 +18,6 @@ npm install markdownlint-config-kayn markdownlint --save-dev
 
 ```json
 {
-  "extends": "markdownlint-config-encode"
+  "extends": "markdownlint-config-kayn"
 }
 ```

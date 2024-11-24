@@ -16,7 +16,6 @@
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
   },
   "keywords": [
-    "encode",
     "fe spec"
   ],
   "license": "ISC",
