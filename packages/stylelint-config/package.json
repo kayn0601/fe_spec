@@ -1,5 +1,6 @@
 {
   "name": "stylelint-config-kayn",
+  "version": "0.0.1",
   "description": "CSS规范",
   "main": "index.js",
   "keywords": [
