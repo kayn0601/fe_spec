@@ -8,7 +8,7 @@ export default defineConfig4CustomTheme({
       description: '',
     },
   },
-  base: '/fe-spec/',
+  base: '/fe_spec/',
   themeConfig: {
     nav: [
       { text: '首页', link: '/index.md' },
