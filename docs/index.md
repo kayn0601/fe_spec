@@ -1,20 +1,17 @@
-# keyn-fe-spec
+---
+home: true
+tagline: 欢迎使用
+actionText: 立刻进入 →
+actionLink: /coding/html.md
 
-前端编码规范工程化
-
-## :mountain: 能力支持
-
-### 1. 全面的前端生态
-
-支持前端全部生态，无需关注环境，支持直接使用
-
-### 2. 完善的规范配件
-
-支持对全部前端配置实现一键接入、一键扫描、一键修复、一键升级
-
-### 3. 完整的测试用例
-
-配套完整的测试用例，提升项目健壮性
+features:
+  - title: 全面的前端生态
+    details: 支持前端全部生态，无需关注环境，支持直接使用
+  - title: 完善的规范配件
+    details: 支持对全部前端配置实现一键接入、一键扫描、一键修复、一键升级
+  - title: 完整的测试用例
+    details: 配套完整的测试用例，帮助您提升项目健壮性
+---
 
 ## :star: 设计目的
 
@@ -23,11 +20,12 @@
 那么，如何制定前端团队的代码规范，如何在团队内进行最小成本的推广，就是一个合格的前端架构师面临的一大难题。很多团队的基础建设都只是简单地知晓其中一部分规范工具的使用，但却没有一套完整的工程化产出来助力研发同学实现规范落地。因此，如果我们能够产出一套完整化的前端编码规范工具，都会对不仅能够解决存量项目的编码异味，还能够保证后续所有项目的编码质量。
 
 
+
 ## :couch_and_lamp: 配套工具
 
 我们引入了多个业界流行的 `Linter` 作为规范文档的配套工具，并根据规范内容定制了对应的规则包，它们包括：
 
-| 规范                                                              | Lint 工具                                                      | npm 包                                                                                 |
+| 规范                                                              | Lint 工具                                                      | NPM 包                                                                                 |
 | ----------------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
 | JavaScript 编码规范 <br/> TypeScript 编码规范 <br/> Node 编码规范 | [ESLint](https://eslint.org/)                                  | [eslint-config-kayn](https://www.npmjs.com/package/eslint-config-kayn)             |
 | CSS 编码规范                                                      | [stylelint](https://stylelint.io/)                             | [stylelint-config-kayn](https://www.npmjs.com/package/stylelint-config-kayn)       |
@@ -39,22 +37,4 @@
 
 您可以使用[kayn-fe-lint](https://www.npmjs.com/package/kayn-fe-lint) 方便地为项目接入全部规范。
 
-## 其他
 
-## 测试`markdown config`
-
-全局安装`markdownlint-cli`
-
-```bash
-npm i -g markdownlint-cli
-pnpm run lint
-```
-
-### 生成`CHANGELOG`
-
-参考[conventional-changelog-cli](https://www.npmjs.com/package/conventional-changelog-cli)，全局安装`conventional-changelog-cli`：
-
-```bash
-npm install -g conventional-changelog-cli
-pnpm run changelog
-```
